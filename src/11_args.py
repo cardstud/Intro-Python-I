@@ -52,14 +52,10 @@ print()
 #
 # Note: Google "python keyword arguments".
 
-def f4(*args):
-    for i in len(args):
-        print("key: ", args[i], ", value: ", args[i])
-        # print("key: a, value: ", a)
-        # print("key: b, value: ", b)
-   
-
-
+def f4(**kwargs):
+    for k,v in kwargs.items():
+        print(f'key: {k}, value: {v}')
+        
 # # Should print
 # # key: a, value: 12
 # # key: b, value: 30
