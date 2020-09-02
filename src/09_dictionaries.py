@@ -57,7 +57,7 @@ waypoints = [
     }
 ]
 
-print(waypoints)
+print('Q1: ', waypoints)
 print()
 
 waypoints.append({"lat":22, "lon":-154, "name":"neverland"})

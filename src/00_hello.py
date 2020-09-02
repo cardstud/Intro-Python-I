@@ -1,8 +1,12 @@
 # Print "Hello, world!" to your terminal
-print('Hello, world!')
+print('\nHello, world!')
 
-print()
+# using .format
+n = "\nHello, world!"
+print("{}".format(n))
 
 # using f string
-print(f'Hello, world!')
+print(f'\nHello, world!')
+
+
 

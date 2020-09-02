@@ -7,28 +7,25 @@ level operating system functionality.
 
 import sys
 # See docs for the sys module: https://docs.python.org/3.7/library/sys.html
-""" This module provides access to some variables used or maintained by the
-interpreter and to functions that interact strongly with the interpreter
 
-The list of command line arguments passed to a Python script. argv[0] is the script name
-If the command was executed using the -c command line option to the interpreter, argv[0] is set to the string '-c'.
-If no script name was passed to the Python interpreter, argv[0] is the empty string
-"""
 # Print out the command line arguments in sys.argv, one per line:
-for x in sys.argv:
-  print(x)
+if len(sys.argv)>1:
+  for arg in sys.argv:
+    print(arg)
+else:
+    print("No arguments provided")
 
 # Print out the OS platform you're using:
 print()
-print('The oS platform being used is: ', sys.platform)
-print('The OS platform I am using is: ', sys.getwindowsversion().platform_version)
+print('The OS platform being used is: ', sys.platform)
+print('The Windows version I am using is: ', sys.getwindowsversion().platform_version)
+print('The Windows version is: ', sys.winver)
+print('The running version of Windows: ', sys.getwindowsversion())
 print()
-
 
 # Print out the version of Python you're using:
 print('The version of python being used is: ', sys.version)
-print('and...')
-print('The version of python is: ', sys.version_info)
+print('and more info on python version is: ', sys.version_info)
 
 print()
 

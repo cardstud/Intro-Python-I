@@ -3,3 +3,6 @@
 
 # YOUR CODE HERE
 print(2**65536)
+
+# Did this in jsconsole.com and it outputs: infinity
+

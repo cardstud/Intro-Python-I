@@ -6,6 +6,7 @@ def is_even(x):
         return ('False')
 
 print(is_even(9)) 
+print(is_even(10))
 
 # Read a number from the keyboard
 num = input("Enter a number: ")

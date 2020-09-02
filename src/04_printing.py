@@ -35,7 +35,8 @@ z = "I like turtles!"
 print("x is %2d, y is %3.2f, z is %1s" % (10, 2.25, "I like turtles!"))
 
 # Use the 'format' string method to print the same thing
-print("x is {x:2d}, y is {y:2f}, z is {z:1s}".format(x=10, y=2.25, z="I like turtles!"))
+#print("x is {x:2d}, y is {y:2F}, z is {z:1s}".format(x=10, y=2.25, z="I like turtles!"))
+print("x is {}, y is {}, z is {}".format(10, 2.25,"I like turtles!"))
 
 # Finally, print the same thing using an f-string
 print(f'x is {x}, y is {round(y,2)}, z is {z}')

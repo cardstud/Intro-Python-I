@@ -6,6 +6,8 @@ only a portion of a list or string.
 This Stack Overflow answer provides a brief but thorough
 overview: https://stackoverflow.com/a/509295
 
+My notes:
+---------
 a[start:stop]  # items start through stop-1
 a[start:]      # items start through the rest of the array
 a[:stop]       # items from the beginning through stop-1
